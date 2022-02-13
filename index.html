@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600;800&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Document</title>
+	</head>
+	<body>
+		<main class="card">
+			<h1>Generate a <br /><span>random password</span></h1>
+			<p>Never use an insecure password again.</p>
+
+			<input
+				type="text"
+				placeholder="Length of password..."
+				id="password-length"
+			/>
+			<button onclick="inputPassword()">
+				<img src="Icon.svg" alt="icon" /> Generate passwords
+			</button>
+
+			<section>
+				<!-- 
+				 -->
+				<div class="tooltip">
+					<span class="tooltiptext" id="tooltiptext1">Copy to clipboard</span
+					><input
+						type="text"
+						id="password-el1"
+						value="egxWij@veiPUwK"
+						readonly
+						onmouseout="outFunc1()"
+					/>
+				</div>
+				<div class="tooltip">
+					<span class="tooltiptext" id="tooltiptext2">Copy to clipboard</span>
+					<input
+						type="text"
+						id="password-el2"
+						value="egxWij@veiPUwK"
+						readonly
+						onmouseout="outFunc2()"
+					/>
+				</div>
+				<div class="tooltip">
+					<span class="tooltiptext" id="tooltiptext3">Copy to clipboard</span>
+					<input
+						type="text"
+						id="password-el3"
+						value="egxWij@veiPUwK"
+						readonly
+						onmouseout="outFunc3()"
+					/>
+				</div>
+				<div class="tooltip">
+					<span class="tooltiptext" id="tooltiptext4">Copy to clipboard</span
+					><input
+						type="text"
+						id="password-el4"
+						value="egxWij@veiPUwK"
+						readonly
+						onmouseout="outFunc4()"
+					/>
+				</div>
+			</section>
+		</main>
+	</body>
+
+	<script src="index.js"></script>
+</html>
